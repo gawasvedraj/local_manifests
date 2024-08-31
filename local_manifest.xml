@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remotes -->
+   <remote name="vedu"
+           fetch="https://github.com/gawasvedraj"
+           clone-depth="1" />
+   <remote name="linag"
+           fetch="https://github.com/LineageOS"
+           clone-depth="1" />
+
+ <!-- Tree -->
+ <project path="device/xiaomi/stone" name="device_xiaomi_stone" remote="vedu" revision="lmo-15" />
+
+ <!-- Kernel -->
+ <project path="device/xiaomi/stone-kernel" name="device_xiaomi_stone-kernel" remote="vedu" revision="lineage-22" />
+
+ <!-- Vendor -->
+ <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="vedu" revision="lineage-22" />
+
+ <!-- Common Xiaomi Hardware Tree -->
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-22.0" />
+
+</manifest>
