@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remotes -->
+   <remote name="vedu"
+           fetch="https://github.com/gawasvedraj"
+           clone-depth="1" />
+   <remote name="kami"
+           fetch="https://github.com/kamikaonashi"
+           clone-depth="1" />
+   <remote name="linag"
+           fetch="https://github.com/LineageOS"
+           clone-depth="1" />
+   <remote name="tf"
+           fetch="https://github.com/TogoFire"
+	   clone-depth="1" />
+
+ 
+ <!-- Tree -->
+ <project path="device/xiaomi/stone" name="device_xiaomi_stone" remote="vedu" revision="15-libperf" />
+
+ <!-- Kernel -->
+ <project path="device/xiaomi/stone-kernel" name="device_xiaomi_stone-kernel" remote="kami" revision="custom" />
+
+ <!-- Vendor -->
+ <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="kami" revision="15-libperf" />
+ 
+ <!-- Common Xiaomi Hardware Tree -->
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-22.1" />
+
+ <!-- V4AFX -->
+ <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="tf" revision="v4a" />
+ 
+</manifest>
