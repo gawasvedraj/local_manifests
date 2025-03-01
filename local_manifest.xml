@@ -22,7 +22,7 @@
  <project path="device/xiaomi/stone-kernel" name="device_xiaomi_stone-kernel" remote="kami" revision="custom" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="kami" revision="15-libperf" />
+ <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="vedu" revision="15-libperf" />
  
  <!-- Common Xiaomi Hardware Tree -->
  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="derp" revision="15" />
