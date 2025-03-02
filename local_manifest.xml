@@ -8,15 +8,15 @@
    <remote name="kami"
            fetch="https://github.com/kamikaonashi"
            clone-depth="1" />
-   <remote name="derp"
-           fetch="https://github.com/DerpFest-Devices"
+   <remote name="ebola-x-dev"
+           fetch="https://github.com/Evolution-X-Devices"
            clone-depth="1" />
-   <remote name="muzer"
-           fetch="https://github.com/selfmusing"
-           clone-depth="1" />
- 
+   <remote name="tf"
+           fetch="https://github.com/TogoFire"
+	   clone-depth="1" />
+
  <!-- Tree -->
- <project path="device/xiaomi/stone" name="device_xiaomi_stone" remote="vedu" revision="15-libperf" />
+ <project path="device/xiaomi/stone" name="device_xiaomi_stone" remote="vedu" revision="15" />
 
  <!-- Kernel -->
  <project path="device/xiaomi/stone-kernel" name="device_xiaomi_stone-kernel" remote="kami" revision="custom" />
@@ -25,9 +25,9 @@
  <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="vedu" revision="15-libperf" />
  
  <!-- Common Xiaomi Hardware Tree -->
- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="derp" revision="15" />
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="ebola-x-dev" revision="vic" />
 
- <!-- BCR -->
- <project path="vendor/bcr" name="vendor_bcr" remote="muzer" revision="main" />
+ <!-- V4AFX -->
+ <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="tf" revision="v4a" />
 
 </manifest>
