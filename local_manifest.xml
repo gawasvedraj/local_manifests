@@ -8,8 +8,8 @@
    <remote name="kami"
            fetch="https://github.com/kamikaonashi"
            clone-depth="1" />
-   <remote name="ebola-x-dev"
-           fetch="https://github.com/Evolution-X-Devices"
+   <remote name="crog"
+           fetch="https://github.com/crdroidandroid"
            clone-depth="1" />
    <remote name="tf"
            fetch="https://github.com/TogoFire"
@@ -25,7 +25,7 @@
  <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="vedu" revision="15-libperf" />
  
  <!-- Common Xiaomi Hardware Tree -->
- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="ebola-x-dev" revision="vic" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="crog" revision="15.0" />
 
  <!-- V4AFX -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="tf" revision="v4a" />
